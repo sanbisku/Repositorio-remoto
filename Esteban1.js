@@ -12,7 +12,11 @@ switch(opcion)
             console.log("Chau "+ nombre);
         }
         break;
-    default:
+    case "suerte":
+        {
+            console.log("Buena suerte" + nombre);
+        }
+        default:
         {
             console.log("no entiendo el comando");
         }
